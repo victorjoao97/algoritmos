@@ -2,11 +2,12 @@
 
 main()
 {
-	float numero;
+	int numero;
 	
 	do {
 		printf("Digite um numero par: ");
-		scanf("%f", &numero);
+		scanf("%d", &numero);
 	}while(numero % 2 != 0);
 
+	getchar();
 }
